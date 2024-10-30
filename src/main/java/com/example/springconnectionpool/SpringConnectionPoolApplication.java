@@ -1,0 +1,13 @@
+package com.example.springconnectionpool;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringConnectionPoolApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(SpringConnectionPoolApplication.class, args);
+    }
+
+}

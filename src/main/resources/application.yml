@@ -1,0 +1,12 @@
+server:
+  port: 9898
+spring:
+  application:
+    name: spring-connection-pool
+  datasource:
+    url: jdbc:postgresql://localhost:5432/connection_pools
+    username: root
+    password: admin123
+  jpa:
+    hibernate:
+      ddl-auto: update
